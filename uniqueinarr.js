@@ -6,4 +6,8 @@ function uniqueArr(array) {
   return unique;
 }
 
+// function uniqueArr(array) {
+//   return [...new Set(array)];
+// }
+
 console.log(uniqueArr([1, 2, 3, 5, 3, 1, 9]));
